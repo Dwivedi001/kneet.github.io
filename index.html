@@ -1,0 +1,304 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+        .container {
+            width: 80%;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+        
+        button.accordion {
+            width: 100%;
+            background-color: whitesmoke;
+            border: none;
+            outline: none;
+            text-align: left;
+            padding: 15px 20px;
+            font-size: 18px;
+            color: #333;
+            cursor: pointer;
+            transition: background-color 0.2s linear;
+        }
+        
+        button.accordion:after {
+            font-family: FontAwesome;
+            content: "\f150";
+            font-family: "fontawesome";
+            font-size: 18px;
+            float: right;
+        }
+        
+        button.accordion.is-open:after {
+            content: "\f151";
+        }
+        
+        button.accordion:hover,
+        button.accordion.is-open {
+            background-color: #ddd;
+        }
+        
+        .accordion-content {
+            background-color: white;
+            border-left: 1px solid whitesmoke;
+            border-right: 1px solid whitesmoke;
+            padding: 0 20px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- connect -->
+    <section>
+        <div class="connect">
+            <div class="phone connect1"> <i class="bi bi-telephone-forward-fill"></i>+9100087911</div>
+            <div class="email connect1"> <i class="bi bi-envelope-check-fill"></i>abhishek.9410dwivedi@gmail.com</div>
+            <div class="address connect1">
+                <i class="bi bi-geo-alt-fill"></i> Noida,Uttar Pradesh, India
+            </div>
+            <div class="socail connect1">
+                <i class="bi bi-facebook fa"></i>
+                <i class="bi bi-twitter tw"></i>
+                <i class="bi bi-youtube yt"></i>
+                <i class="bi bi-instagram ig"></i>
+            </div>
+        </div>
+    </section>
+    <!-- topbar -->
+    <section>
+
+        <div class="top">
+            <div class="top1">
+                <div class="logo">
+                    <h1>KNEET <br>
+                        <span> Entrence Exam</span></h1>
+                </div>
+                <div class="navitem">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Insight</a></li>
+                        <li><a href="">Why Kneet</a></li>
+                        <li><a href="">Contact-us</a></li>
+
+                    </ul>
+                </div>
+                <div class="login">
+                    <a href="#">login/Register</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <div class="top2">
+            <h2>About KNEET</h2>
+        </div>
+    </section>
+
+    <!-- head -->
+    <section>
+        <div class="head">
+            <div class="head1">
+                <div class="head-left">
+                    <h2>Powering your ability as <br>well as management practices <br> all around the world.</h2>
+                </div>
+                <div class="head-right">
+                    <ul>
+                        <li>Worldwide Scale</li>
+                        <li> Assessments</li>
+                        <li> Industry Knowledg</li>
+                    </ul>
+                    <p>Worldwide experience and expertise, supported by serious areas of strength for a presence</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about -->
+    <section>
+        <div class="about">
+            <div class="about1">
+                <div class="about-card">
+                    <img src="img/challenge.png" height="70px" alt="">
+                    <p>Support continued rapid <br> professional growth</p>
+                </div>
+                <div class="about-card">
+                    <img src="img/idea.png" alt="">
+                    <p>Support continued rapid <br> professional growth</p>
+                </div>
+
+                <div class="about-card">
+                    <img src="img/result.png" alt="">
+                    <p>Support continued rapid <br> professional growth</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- syllabus -->
+    <section>
+        <div class="syllabus">
+            <div class="syllabus1">
+                <div class="syll-left">
+                    <img src="img/syllabus.jpg" alt="">
+                </div>
+                <div class="syll-right">
+                    <h2>KNEET – Syllabus</h2>
+                    <p>(Applicable for B.Tech, M.Tech, BCA, MCA and B.Com, M.Com, BBA, MBA and Diploma)</p>
+                    <p>Aptitude</p>
+                    <p> Reasoning</p>
+                    <p> Numerical
+                    </p>
+                    <p>Technical Coding *</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- assest -->
+    <section>
+        <div class="asset">
+            <div class="asset1">
+                <h2>BE AN ASSET TO OUR INVENTION, COLLECTIVE KNOWLEDGE AND INNOVATION</h2>
+                <p>Let the world know your resourcefulness!</p>
+            </div>
+        </div>
+    </section>
+    <!-- accord -->
+    <section>
+        <div class="accord">
+            <div class="accord1">
+                <div class="accord-left">
+                    <div class="container">
+                        <p style="padding: 30px ; color:grey">Why Choose us</p>
+                        <h1 style="padding: 10px ; font-size: 30px;">Campus Recruitment Step by Step</h1>
+
+                        <button class="accordion">Website Design and Development</button>
+                        <div class="accordion-content">
+                            <p>
+                                Whether you need a wordpress website, a shopify site, or a custom fullstack application, we got you! No matter what kind of website or application you need, it will be made with clean and maintable code that follows modern development standards. We also
+                                have top notch designers that can make unique designs that will make your website look different and unique. Not to mention that we also provide 24/7 website maintenance so that you get all the support you need.
+                            </p>
+                        </div>
+
+                        <button class="accordion">Website Analytics and Performance</button>
+                        <div class="accordion-content">
+                            <p>
+                                We believe that in order to have a successful website, you need to constantly adjust and adapt to the data provided by your website visitors. Here at Pierre Web Development, we have narrowed down the specific key performance indicators that will dramatically
+                                boost your success with connecting to target markets. We will provide a basic metric dashboard based on how much traffic your site gets, detailed analytical reports that show which parts of your website is the most popular
+                                among visitors as well as access to tools you can use to make meaningful decisions based on this data.
+                            </p>
+                        </div>
+
+                        <button class="accordion">Digital Marketing</button>
+                        <div class="accordion-content">
+                            <p>
+                                We know that every great website focuses on helping you get more business and building a brand that your ideal customers will love and support. We can help you set up a great, SEO-focused content strategy, a paid ads campaign, email marketing integration
+                                with Mailchimp as well as a social media marketing campaign. We also use popular website analytic tools to track your site's performance and provide you with weekly analytic reports to help bolster your growth.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="accord-right">
+                    <img src="img/faqnew.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <section>
+        <div class="footer">
+            <div class="footer1">
+                <div class="footer-left">
+                    <h2>
+                        KNEET
+                    </h2>
+
+                    <p>Get ready and test your Abilities with Knocial <br> National Eligibility Entrance Test Digital <br>Learning Hub Assessments.</p>
+
+                    <p>
+                        kneet@knocialindia.com <br><span>
+                            +91 935-412-0847</span>
+                    </p>
+                </div>
+                <div class="footer-mid">
+                    <h2>Links</h2>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Insight</a></li>
+                        <li><a href="">Why Kneet</a></li>
+                        <li><a href="">Fraud Awareness</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-right">
+                    <h2>legal</h2>
+                    <ul>
+                        <li><a href="">Terms of use</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Cookie Policy</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="footer2">
+                <div class="foot-left">
+                    <h2>
+                        KNEET
+                    </h2>
+
+                </div>
+                <div class="foot-mid">
+                    <p>Copyright © 2022 Knocial India Limited | CIN U74999HR2020PLC090598 <br> Registered under Ministry of Corporate Affairs (Govt. of India)</p>
+                </div>
+                <div class="foot-right">
+                    <p>
+                        <i class="bi bi-facebook fa"></i>
+                        <i class="bi bi-twitter tw"></i>
+                        <i class="bi bi-youtube yt"></i>
+                        <i class="bi bi-instagram ig"></i>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+</body>
+<script>
+    const accordionBtns = document.querySelectorAll(".accordion");
+
+    accordionBtns.forEach((accordion) => {
+        accordion.onclick = function() {
+            this.classList.toggle("is-open");
+
+            let content = this.nextElementSibling;
+            console.log(content);
+
+            if (content.style.maxHeight) {
+                //this is if the accordion is open
+                content.style.maxHeight = null;
+            } else {
+                //if the accordion is currently closed
+                content.style.maxHeight = content.scrollHeight + "px";
+                console.log(content.style.maxHeight);
+            }
+        };
+    });
+</script>
+
+</html>

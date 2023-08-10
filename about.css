@@ -1,0 +1,554 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+
+/* connect */
+
+.connect {
+    display: flex;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.socail .fa {
+    background-color: blue;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+
+.socail .yt {
+    background-color: rgb(181, 48, 48);
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+
+.socail .tw {
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+
+.connect1 {
+    padding: 0px 20px;
+}
+
+.socail .ig {
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+
+.top {
+    background-color: black;
+    color: white;
+}
+
+.top1 {
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+.top1 .logo h1 {
+    color: rgb(16, 159, 159);
+}
+
+.top1 .logo h1 span {
+    color: rgb(238, 247, 248);
+    font-size: 8px;
+    text-transform: uppercase;
+}
+
+.navitem ul {
+    display: flex;
+}
+
+.navitem ul li {
+    list-style-type: none;
+}
+
+.navitem ul li a {
+    text-decoration: none;
+    padding: 30px;
+    color: white;
+    padding: 10px 20px;
+}
+
+.navitem ul li a:hover {
+    color: red;
+}
+
+.login {
+    padding: 10px;
+    box-shadow: 2px 5px 5px 0px white;
+    background: transparent
+}
+
+.login:hover {
+    background-color: red;
+}
+
+.login a {
+    padding: 10px 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-radius: 10px;
+    color: white;
+}
+
+.top2 {
+    text-align: center;
+    padding: 0px 30px;
+}
+
+.top2 h2 {
+    padding: 30px;
+    font-size: 30px;
+    color: grey;
+    text-transform: uppercase;
+}
+
+.top2 p {
+    padding: 10px 30px;
+    font-size: 25px;
+    background-color: rgb(238, 247, 248);
+}
+
+
+/* header */
+
+.head {
+    padding: 30px 30px 0px 30px;
+}
+
+.head1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    background-color: rgb(238, 247, 248);
+}
+
+.head-left {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.head-right ul {
+    display: flex;
+    padding: 30px 10px;
+}
+
+.head-right ul li {
+    padding: 0px 10px;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.head-right ul li:hover {
+    border-bottom: 5px solid red;
+}
+
+
+/* about */
+
+.about {
+    padding: 0px 30px;
+}
+
+.about1 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(238, 247, 248);
+}
+
+.about-card {
+    padding: 30px;
+}
+
+.about-card img {
+    padding: 30px;
+}
+
+.about-card p {
+    padding: 30px;
+}
+
+
+/* syllabus */
+
+.syllabus {
+    padding: 0px 30px;
+}
+
+.syllabus1 {
+    display: flex;
+    background-color: white;
+    padding: 30px;
+}
+
+.syll-left {
+    padding: 30px;
+}
+
+.syll-left img {
+    width: 400px;
+}
+
+.syll-right {
+    padding: 30px;
+}
+
+.syll-right h2 {
+    padding: 20px;
+}
+
+.syll-right p {
+    padding: 10px;
+}
+
+.asset {
+    padding: 0px 30px;
+}
+
+.asset1 {
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(238, 247, 248);
+}
+
+.asset1 p {
+    padding: 20px;
+}
+
+.accord {
+    padding: 0px 30px;
+}
+
+.accord1 {
+    padding: 30px;
+    display: flex;
+    background-color: rgb(238, 247, 248);
+}
+
+
+/* footer */
+
+.footer {
+    background-color: black;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: .25px solid rgb(196, 192, 192);
+}
+
+.footer-left h2 {
+    padding: 30px;
+    color: rgb(27, 162, 162);
+}
+
+.footer-left p {
+    color: grey;
+}
+
+.footer-mid {
+    padding: 30px 60px;
+}
+
+.footer-mid ul li {
+    padding: 10px;
+    list-style-type: none;
+}
+
+.footer-right {
+    padding: 30px 60px;
+}
+
+.footer-right ul li {
+    padding: 10px;
+    list-style-type: none;
+}
+
+.footer-right ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-mid ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-right {
+    padding: 30px;
+}
+
+.footer2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0px;
+}
+
+.footer2 h2 {
+    padding: 30px;
+    color: rgb(16, 159, 159);
+}
+
+.footer2 p {
+    color: grey;
+    padding: 30px;
+}
+
+
+/* media */
+
+@media screen and (max-width:768px) {
+    /* connect */
+    body {
+        background-color: white;
+    }
+    .connect {
+        display: block;
+        background-color: red;
+        color: white;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .socail .fa {
+        background-color: blue;
+        border-radius: 5px;
+        padding: 5px;
+        color: white;
+    }
+    .socail .yt {
+        background-color: rgb(181, 48, 48);
+        border-radius: 5px;
+        padding: 5px;
+        color: white;
+    }
+    .socail .tw {
+        background-color: aqua;
+        border-radius: 5px;
+        padding: 5px;
+        color: white;
+    }
+    .connect1 {
+        padding: 20px 0px;
+    }
+    .socail .ig {
+        background-color: black;
+        border-radius: 5px;
+        padding: 5px;
+        color: white;
+    }
+    .top {
+        background-color: black;
+        color: white;
+    }
+    .top1 {
+        display: block;
+        padding: 10px;
+        justify-content: space-evenly;
+    }
+    .top1 .logo h1 {
+        color: rgb(16, 159, 159);
+        padding: 10px 20px;
+    }
+    .top1 .logo h1 span {
+        color: rgb(238, 247, 248);
+        font-size: 8px;
+        text-transform: uppercase;
+    }
+    .navitem ul {
+        display: block;
+    }
+    .navitem ul li {
+        list-style-type: none;
+        padding: 20px 0px;
+    }
+    .navitem ul li a {
+        text-decoration: none;
+        padding: 30px;
+        color: white;
+        padding: 10px 20px;
+    }
+    .navitem ul li a:hover {
+        color: red;
+    }
+    .login {
+        padding: 10px;
+    }
+    .login:hover {
+        background-color: red;
+    }
+    .login a {
+        padding: 5px 10px;
+        text-decoration: none;
+        text-transform: capitalize;
+        border-radius: 10px;
+        color: white;
+    }
+    .top2 {
+        text-align: center;
+        padding: 30px 0px;
+    }
+    .top2 h2 {
+        padding: 10px;
+        font-size: 30px;
+        color: grey;
+        text-transform: uppercase;
+    }
+    /* header */
+    .head {
+        padding: 30px 0px 0px 0px;
+    }
+    .head1 {
+        display: block;
+        justify-content: space-evenly;
+        padding: 30px 10px;
+        background-color: rgb(238, 247, 248);
+    }
+    .head-left {
+        padding: 20px 0px;
+        font-size: 10px;
+    }
+    .head-right ul {
+        display: block;
+        padding: 30px 10px;
+    }
+    .head-right ul li {
+        padding: 10px 10px;
+        list-style-type: none;
+        font-weight: bold;
+    }
+    .head-right ul li:hover {
+        border-bottom: 5px solid red;
+    }
+    /* footer */
+    /* about */
+    .about {
+        padding: 30px 0px;
+    }
+    .about1 {
+        display: block;
+        justify-content: space-evenly;
+        background-color: rgb(238, 247, 248);
+    }
+    .about-card {
+        padding: 30px;
+    }
+    .about-card img {
+        padding: 30px;
+    }
+    .about-card p {
+        padding: 30px;
+    }
+    /* syllabus */
+    .syllabus {
+        padding: 30px 0px;
+    }
+    .syllabus1 {
+        display: block;
+        background-color: white;
+        padding: 30px 10px;
+    }
+    .syll-left {
+        padding: 30px 10px;
+    }
+    .syll-left img {
+        width: 100%;
+    }
+    .syll-right {
+        padding: 30px 10px;
+    }
+    .syll-right h2 {
+        padding: 20px 10px;
+    }
+    .syll-right p {
+        padding: 10px;
+    }
+    .asset {
+        padding: 30px 0px;
+    }
+    .asset1 {
+        text-align: center;
+        padding: 10px;
+        background-color: rgb(238, 247, 248);
+    }
+    .asset1 p {
+        padding: 20px;
+    }
+    .accord {
+        padding: 30px 0px;
+    }
+    .accord1 {
+        padding: 30px;
+        display: block;
+        background-color: rgb(238, 247, 248);
+    }
+    .accord-right img {
+        width: 100%;
+    }
+    .footer {
+        background-color: black;
+    }
+    .footer1 {
+        display: block;
+        justify-content: space-evenly;
+        border-bottom: .25px solid rgb(196, 192, 192);
+    }
+    .footer-left h2 {
+        padding: 30px;
+        color: rgb(16, 159, 159);
+    }
+    .footer-mid {
+        padding: 30px 30px;
+    }
+    .footer-mid ul li {
+        padding: 10px;
+        list-style-type: none;
+    }
+    .footer-right {
+        padding: 30px 30px;
+    }
+    .footer-right ul li {
+        padding: 10px;
+        list-style-type: none;
+    }
+    .footer-right ul a {
+        text-decoration: none;
+        color: white;
+    }
+    .footer-mid ul a {
+        text-decoration: none;
+        color: white;
+    }
+    .footer-right {
+        padding: 30px;
+    }
+    .footer2 {
+        display: block;
+        justify-content: space-evenly;
+        padding: 30px 0px;
+    }
+    .footer2 h2 {
+        padding: 30px;
+        color: rgb(16, 159, 159);
+    }
+    /* footer end*/
+}
